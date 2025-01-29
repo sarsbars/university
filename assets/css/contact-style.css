@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*                      Banner                            */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.banner {
+    background-color: #D40b2e;
+    height: 40dvh;
+    text-align: center;
+    align-content: center;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*                   Contact Section                     */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    height: 15dvh;
+}
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 1px 1px 2px rgb (0 0 0 / 5%);
+}
+
+.icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 45px;
+
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*                      Form                             */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+form {
+    margin-top: 20px;
+    width: 400px;
+
+    label {
+        font-weight: 500;
+    }
+
+    input[type=text] {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        width: 100%;
+        height: 46px;
+        padding: 0 15px 0 30px;
+        background-size: 15px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        transition: all 0.25s ease-in-out;
+
+        &:focus {
+            border: 1px solid #62adff;
+        }
+    }
+
+    input[type=email] {
+        width: 100%;
+        height: 46px;
+        padding: 0 15px 0 30px;
+        background-size: 15px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        transition: all 0.25s ease-in-out;
+
+        &:focus {
+            border: 1px solid #62adff;
+        }
+    }
+
+    input[type=submit] {
+        margin-top: 15px;
+        height: 46px;
+        width: 100px;
+        font-weight: 600;
+        font-size: .9rem;
+        background-color: #1484ff;
+        color: #fff;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+}
