@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* - - - - - - - */
+/* - - Fonts - - */
+/* Make sure to add the google fonts in your html */
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .red {
+    background-color: #D40b2e;
+  }
