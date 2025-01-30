@@ -1,6 +1,11 @@
 @charset "utf-8";
 
-
+:root {
+  --background-grey: #f2f2f2; 
+  --primary-colour: #d40b2e;
+  --border-radius: 4px;
+  --border-color: #c6c6c6;
+}
 
 * {
   margin: 0;
@@ -10,11 +15,11 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
+
 .container {
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
 }
-
 
 body {
     background-color: #f1f1f1;
@@ -47,8 +52,4 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
-
-  .red {
-    background-color: #D40b2e;
   }
