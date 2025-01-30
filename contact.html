@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Sarah Mitchell">
         <meta name="description" content="Basic web page">
-        <meta name="keywords" content="web developmetn, html, css, javascript, winnipeg, Canada">
+        <meta name="keywords" content="web development, html, css, javascript, winnipeg, Canada">
         <title>Contact Us</title>
-        <link rel="icon" href="./assets/img/logo.png" type="png">
+        <link rel="icon" href="./assets/img/logo.png" type="image/png">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
         <link rel="stylesheet" href="./assets/css/general-style.css">
         <link rel="stylesheet" href="./assets/css/contact-style.css">
@@ -21,12 +21,12 @@
             <div class="container flex space-between">
                 <div class="flex gap-40">
                     <div class="title flex">
-                        <div class="logo"><img src="./assets/img/logo.png"></div>
+                        <div class="logo"><img src="./assets/img/logo.png" alt="Winterpeg University Logo"></div>
                         <h1>WINTERPEG UNIVERSITY</h1>
                     </div>
                     <nav>
                         <ul class="nav-list">
-                            <li><a href="#">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Programs</a></li>
                             <li><a href="#">Contact Us</a></li>
@@ -41,10 +41,10 @@
        
         <main>
             <div class="banner">
-                <h2> Contact Us</h2>
+                <h2 class="banner-title">Contact Us</h2>
             </div>
 
-            <section class="container flex space-between">
+            <section class="container flex space-evenly">
                 <div class="box flex center">
                     <div class="icon align">
                         <i class="fa-solid fa-phone"></i>
@@ -59,8 +59,8 @@
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
-                        <p> 130 Henlow Bay, Winnipeg 
-                        <p> Manitoba, Canada R3Y 1G4</p>
+                        <p>130 Henlow Bay, Winnipeg</p>
+                        <p>Manitoba, Canada R3Y 1G4</p>
                      </div>
                 </div>
                 <div class="box align flex">
@@ -68,12 +68,24 @@
                         <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div>
-                        <p> dean@winterpeguniversity.com</p>
-                        <p> K.reeves@winterpeguniversity.com</p>
+                        <p> dean@WinterpegU.com</p>
+                        <p> K.reeves@WinterpegU.com</p>
                     </div>
                 </div>
             </section>
-            <div class="container form-map-container flex space-between">
+            <div class="container form-map-container space-around flex">
+                <form>
+                    <div class="form-container">
+                        <h2>Get In Touch</h2>
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Lillian Mitchell" required>
+                        <label>Email</label>
+                        <input type="email" placeholder="lou@gmail.com" required>
+                        <label>Comment</label>
+                        <textarea placeholder="Your message here" required></textarea>
+                        <input type="submit" value="Send Message">
+                    </div>
+                </form>
                 <div class="google-map">
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.4900812827673!2d-97.1965126768753!3d49.81445353271439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea756d679c1f21%3A0xd09825e5197c16da!2sManitoba%20Institute%20of%20Trades%20and%20Technology!5e0!3m2!1sen!2sca!4v1738168434780!5m2!1sen!2sca" 
@@ -85,30 +97,7 @@
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
-                <div class="form-container">
-                    <h2>Get In Touch</h2>
-                    <form class="flex">
-                        <div class="form-left flex">
-                            <label>First and Last Name</label>
-                            <input type="text" placeholder="Lillian Mitchell" required>
-            
-                            <label>Email</label>
-                            <input type="email" placeholder="Lou@gmail.com" required>
-            
-                            <label>Phone Number</label>
-                            <input type="text" placeholder="(204)296-1427" required>
-                        </div>
-            
-                        <div class="form-right flex">
-                            <label>Comment</label>
-                            <textarea placeholder="Your message here" required></textarea>
-            
-                            <input type="submit" value="Send Message">
-                        </div>
-                    </form>
-                </div>
             </div>
-            
         </main>
         
         <footer class="flex align">
