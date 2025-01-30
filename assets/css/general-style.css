@@ -15,10 +15,33 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
-
 .container {
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.align {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+.center {
+  justify-content: center;
+  align-items: center;
 }
 
 body {
@@ -53,3 +76,116 @@ body {
     font-weight: 400;
     font-style: normal;
   }
+
+
+/*---------------------------------------------------------------------------*/
+/*------------------------------Header---------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+header {
+  background: #fff;
+}
+
+.title {
+  height: 56px;
+
+  h1 {
+      position: relative;
+      right: 2px;
+      line-height: 20px;
+      font-size: 18px;
+      color: var(--primary-colour);
+      font-weight: 500;
+      text-transform: uppercase;
+      place-content: center;
+  }
+
+  .logo {
+      height: 90px;
+      width: 90px;
+  }
+  
+}
+
+nav {
+  width: 100%;
+  height: 56px;
+}
+
+nav .nav-list {
+  list-style: none;
+}
+
+nav .nav-list li {
+  display: inline;
+  line-height: 56px;
+
+  a {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+      font-weight: 500;
+  
+      &:hover {
+          color: var(--primary-colour);
+          transition: color 0.25s ease-in-out;
+      }
+  }
+}
+
+.nav-list li + li {
+  margin-left: 16px;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 38px;
+  padding: 0 15px 0 32px;
+  border: 1px solid rgb(0 0 0 / 5%);
+  border-radius: 50px;
+  transition: all 0.25s ease-in-out;
+  background: #fff url(../img/image4.png) no-repeat 10px 11px;
+  background-size: 16px;
+
+  &:focus {
+      border: 1px solid var(--primary-colour);
+  }
+}
+
+/*---------------------------------------------------------------------------*/
+/*------------------------------Footer---------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+footer {
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+
+  .left-footer ul li{
+      display: inline;
+
+      a {
+          height: 40px;
+          width: 40px;
+          padding: px;
+          border-radius: 50%;
+          font-size: 16px;
+          background-color: rgb(255 255 255 / 10%);
+          backdrop-filter: blur(100px) saturate(140%);
+          height: 30px;
+          width: 30px;
+          border: 1px solid #dcdcdc;
+          position: relative;
+          right: 2px;
+
+          i {
+              color: #fff;
+          }
+
+          &:hover {
+              background-color: #672C36;
+              transition: color 0.25s ease-in-out;
+          }
+      }
+  }
+}
