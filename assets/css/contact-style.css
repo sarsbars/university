@@ -161,16 +161,23 @@ form input[type=submit] {
         flex-direction: column; 
         gap: 20px;
     }
-
-    .contact-section .flex,
-    .form-map-container .flex {
+    
+    .box-section {
+        align-items: center;
         flex-direction: column;
+    }
+
+    .box {
+        width: 100%; 
+        max-width: 400px; 
+        margin-top: 10px;
     }
 
     form {
         width: 100%; 
     }
 
+   
     .form-container {
         width: 100%; 
     }
