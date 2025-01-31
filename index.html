@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
-        <link rel="stylesheet" href="./assets/css/main.css" media="all" >
+        <link rel="stylesheet" href="./assets/css/home.css" media="all" >
     </head>
     <body>
         <header>
@@ -24,26 +24,153 @@
                     </div>
                     <nav>
                         <ul class="nav-list">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">About us</a></li>
                             <li><a href="#">Programs</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#">Bootcamps</a></li>
+                            <li><a href="#">Contact us</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="flex center">
+                <div class="flex center search-bar">
                     <input type="text" placeholder="Search">
                 </div>
+                <button class="hamburger"><i class="fa-solid fa-bars"></i></button>
             </div>
         </header>
         <main>
-            <div class="container"></div>
+            <div class="hero-banner">
+                <div class="overlay">
+                    <h2>Empowering future leaders through education</h2>
+                    <p>Join a community of innovative thinkers, driven to make an impact in the world</p>
+                    <a href="#">Explore Programs</a>
+                </div>
+            </div>
+            <section class="about-container">
+                <div class="container flex gap-40">
+                    <div class="content">
+                        <h3>About the University</h3>
+                        <p>
+                            At Winterpeg University, we are committed to academic excellence, innovation, and leadership. 
+                            Our institution provides a dynamic learning environment that empowers students to excel in their 
+                            chosen fields. With a world-class faculty, cutting-edge research facilities, and a vibrant campus 
+                            community, we foster intellectual curiosity and global perspectives. Whether you're pursuing 
+                            undergraduate, postgraduate, or professional studies, Winterpeg University is where knowledge 
+                            meets opportunity, shaping the next generation of leaders and changemakers.
+                        </p>
+                    </div>
+                    <figure>
+                        <image src="./assets/img/image3.jpg"></image>
+                    </figure>
+                </div>
+            </section>
+            <section>
+                <div class="container flex gap-20 row">
+                    <div class="column lg-25">
+                        <p>Student Population</p>
+                        <h3>20,000+</h3>
+                    </div>
+                    <div class="column lg-25">
+                        <p>Clubs & Societies</p>
+                        <h3>150+</h3>
+                    </div>
+                    <div class="column lg-25">
+                        <p>Scholarships & Bursaries</p>
+                        <h3>$70.M+</h3>
+                    </div>
+                    <div class="column lg-25">
+                        <p>Research funding</p>
+                        <h3>$150M</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="programs">
+                <div class="container">
+                    <h3>Our programs</h3>
+                    <div class="flex gap-20 card-images row">
+                        <div class="card lg-25">
+                            <figure>
+                                <image src="./assets/img/cardimg.jpg"></image>
+                            </figure>
+                            <p>Undergraduate studies</p>
+                            <p>
+                                Your journey starts here. Choose from more than 200 program options, check the admission requirements 
+                                and apply online
+                            </p>
+                        </div>
+                        <div class="card lg-25">
+                            <figure>
+                                <image src="./assets/img/cardimg2.jpg"></image>
+                            </figure>
+                            <p>Graduate studies</p>
+                            <p>
+                                More than 500 graduate programs, 250 specializations and 300 research areas — find out how to take 
+                                your education to the next level.
+                            </p>
+                        </div>
+                        <div class="card lg-25">
+                            <figure>
+                                <image src="./assets/img/cardimg3.jpg"></image>
+                            </figure>
+                            <p>Continuing studies</p>
+                            <p>
+                                Grow your career part-time or online with our 200+ courses and 40+ programs.
+                            </p>
+                        </div>
+                        <div class="card lg-25">
+                            <figure>
+                                <image src="./assets/img/bootcamp.jpg"></image>
+                            </figure>
+                            <p>Bootcamp</p>
+                            <p>
+                                Grow your career with short courses.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+            </section>
+            <section>
+                <div class="mini-banner">
+                    <div class="overlay">
+                        <h3>Discover. Learn. Lead </h3>
+                    </div>
+                </div>
+            </section>
+            <section class="review">
+                <div class="container">
+                    <h3>What our students are saying</h3>
+                    <div class="flex gap-30 row review">
+                        <div class="review-card">
+                            <div class="circle"></div>
+                            <p class="say">
+                                <em>
+                                    "My time at Winterpeg University shaped me into the person I am today. The education,
+                                     mentorship, and experiences I gained here gave me the confidence to chase my dreams."
+                                </em>
+                            </p>
+                            <p>Zendaya Coleman</p>
+                            <p>Actress, singer, Model, recent alumna</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="circle2"></div>
+                            <p class="say">
+                                <em>
+                                    "At Winterpeg University, I discovered my passion, built lifelong connections, and gained 
+                                    the skills that set me up for success. It’s more than a university—it’s a community."
+                                </em>
+                            </p>
+                            <p>Tom Holland</p>
+                            <p>Actor, recent alumnus</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer class="flex align">
             <div class="container flex space-between">
                 <p>2025 &copy; Winterpeg University</p>
                 <div class="left-footer flex align">
-                    <ul class="flex gap-8">
+                    <ul class="flex gap-10">
                         <li><a href="#" class="flex center"><i class="fa-brands fa-twitter"></i></a></li>
                         <li><a href="#" class="flex center"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         <li><a href="#" class="flex center"><i class="fa-brands fa-facebook-f"></i></a></li>
