@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-  
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*                      Banner                            */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -36,7 +35,6 @@ section {
         gap: 20px; 
         align-items: center;
     }
-
 }
 
 .box { 
@@ -77,6 +75,7 @@ form {
 .form-title {
     margin-bottom: 10px;
 }
+
 .form-container {
     flex: 1;
     max-width: 100%; 
@@ -143,7 +142,6 @@ form input[type=submit] {
     border-radius: 5px;
 }
 
-
 /* - - - - - - - - - - - - - - - - */
 /* - - - - Media Queries - - - - - */
 /* - - - - - - - - - - - - - - - - */
@@ -153,18 +151,16 @@ form input[type=submit] {
     .banner-title {
         font-size: 8vw; 
     }
-
     .google-map {
         height: 300px; 
     }
-
     .form-map-container {
         flex-direction: column; 
         gap: 20px;
     }
-
-    .flex {
-        flex-direction: column; 
+    .contact-section .flex,
+    .form-map-container .flex {
+        flex-direction: column;
     }
 
     form {
@@ -179,7 +175,6 @@ form input[type=submit] {
         width: 100%; 
     }
 }
-
 /* 480px and down */
 @media (max-width: 480px) {
  

@@ -5,7 +5,7 @@
     --primary-colour: #d40b2e;
     --border-radius: 4px;
     --border-color: #c6c6c6;
-  }
+}
 
 .gap-6 {
     gap: 6px;
@@ -13,10 +13,6 @@
 
 .gap-10 {
     gap: 10px;
-}
-
-.gap-20 {
-    gap: 20px;
 }
 
 .gap-30 {
@@ -27,135 +23,12 @@
     flex-direction: row;
 }
 
-.align {
-    align-items: center;
-}
 
 nav ul.nav-list li.selected a {
     color: var(--primary-colour);
 }
 
-/*---------------------------------------------------------------------------*/
-/*------------------------------Header---------------------------------------*/
-/*---------------------------------------------------------------------------*/
 
-header {
-    background: #fff;
-}
-
-.title {
-    height: 56px;
-
-    h1 {
-        position: relative;
-        right: 2px;
-        line-height: 20px;
-        font-size: 1.8rem;
-        color: var(--primary-colour);
-        font-weight: 500;
-        text-transform: uppercase;
-        place-content: center;
-    }
-
-    .logo {
-        height: 90px;
-        width: 90px;
-    }
-    
-}
-
-nav {
-    width: 100%;
-    height: 56px;
-}
-
-nav .nav-list {
-    list-style: none;
-}
-
-nav .nav-list li {
-    display: inline;
-    line-height: 56px;
-
-    a {
-        text-decoration: none;
-        color: #525252;
-        font-size: 1.6rem;
-        font-weight: 500;
-    
-        &:hover {
-            color: var(--primary-colour);
-            transition: color 0.25s ease-in-out;
-        }
-    }
-}
-
-.nav-list li + li {
-    margin-left: 16px;
-}
-
-input[type=text] {
-    width: 100%;
-    height: 38px;
-    padding: 0 15px 0 32px;
-    /* border: 1px solid rgb(0 0 0 / 5%); */
-    border-radius: 50px;
-    transition: all 0.25s ease-in-out;
-    background: #f6f6f6 url(../img/image4.png) no-repeat 10px 11px;
-    background-size: 16px;
-
-    &:focus {
-        border: 1px solid var(--primary-colour);
-    }
-}
-
-.hamburger {
-    font-size: 24px;
-    color: #000;
-    display: none;
-    background: none;
-    border: none;
-    padding: 10px;
-}
-
-/*---------------------------------------------------------------------------*/
-/*------------------------------Footer---------------------------------------*/
-/*---------------------------------------------------------------------------*/
-
-footer {
-    height: 60px;
-    background-color: #000;
-    color: #fff;
-
-    .left-footer ul li{
-        display: inline;
-
-        a {
-            text-decoration: none;
-            height: 40px;
-            width: 40px;
-            padding: px;
-            border-radius: 50%;
-            font-size: 1.6rem;
-            background-color: rgb(255 255 255 / 10%);
-            backdrop-filter: blur(100px) saturate(140%);
-            height: 30px;
-            width: 30px;
-            border: 1px solid #dcdcdc;
-            position: relative;
-            right: 2px;
-
-            i {
-                color: #fff;
-            }
-
-            &:hover {
-                background-color: #672C36;
-                transition: color 0.25s ease-in-out;
-            }
-        }
-    }
-}
 
 /*---------------------------------------------------------------------------*/
 /*--------------------------------body---------------------------------------*/
@@ -381,36 +254,10 @@ section {
 /*---------------------------------------------------------------------------*/
 /*------------------------------Media Query----------------------------------*/
 /*---------------------------------------------------------------------------*/
-/*1200px and down*/
-@media (max-width: 1200px) {
-
-}
-
-
-
 
 /*992px and down*/
 @media (max-width: 992px) {
-    /*for the header*/
-    nav {
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-
-    .title .logo {
-        height: 50px;
-        width: 50px;
-    }
-
-    .about-container .container {
-        flex-direction: column;
-
-        .content {
-            text-align: center;
-        }
-    }
+      
 
     .lg-25 {
         flex: 0 0 50%;
@@ -426,18 +273,6 @@ section {
 
 /*768px and down*/
 @media (max-width: 768px) {
-    /*for the header*/
-    nav {
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-
-    .search-bar {
-        display: none;
-    }
-
     .hero-banner .overlay h2 {
         font-size: 6rem;
         line-height: 1;
@@ -446,14 +281,6 @@ section {
     .overlay {
         h2, p {
             margin: 0 20px;
-        }
-    }
-
-    .about-container .container {
-        flex-direction: column;
-
-        .content {
-            text-align: center;
         }
     }
 
@@ -466,24 +293,11 @@ section {
         flex: 0 0 100%;
         max-width: 100%;
      }
-
 }
 
 
 /*480px and down*/
 @media (max-width: 480px) {
-    /*for the header*/
-    nav {
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-
-    .search-bar {
-        display: none;
-    }
-
     .hero-banner .overlay h2 {
         font-size: 5rem;
         line-height: 1;
