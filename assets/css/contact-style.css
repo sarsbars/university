@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*                      Banner                            */
+/*                      Banner                           */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 .banner {
@@ -113,6 +113,7 @@ form input[type=email] {
     transition: all 0.25s ease-in-out;
     background-color: #fff;
     margin-bottom: 15px;
+    background: #fff;
 }
 
 form input[type=text]:focus,
@@ -126,7 +127,7 @@ textarea {
     height: 150px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     resize: none;
 }
 
@@ -151,13 +152,16 @@ form input[type=submit] {
     .banner-title {
         font-size: 8vw; 
     }
+
     .google-map {
         height: 300px; 
     }
+
     .form-map-container {
         flex-direction: column; 
         gap: 20px;
     }
+
     .contact-section .flex,
     .form-map-container .flex {
         flex-direction: column;
