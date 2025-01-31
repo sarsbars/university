@@ -57,11 +57,16 @@
 
 body {
     background-color: var(--background-grey);
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.row {
+  flex-direction: row;
 }
 
 /* - - - - - - - */
 /* - - Fonts - - */
-/* Make sure to add the google fonts in your html */
+/* - - - - - - - */
 
 .merriweather-regular {
     font-family: "Merriweather", serif;

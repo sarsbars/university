@@ -7,29 +7,6 @@
     --border-color: #c6c6c6;
   }
 
-
-.container {
-    width: min(100% - 30px, 1080px);
-    margin-inline: auto;
-}
-
-body {
-    background: #fff;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-}
-
-.flex {
-    display: flex;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
-.gap-40 {
-    gap: 40px;
-}
-
 .gap-6 {
     gap: 6px;
 }
@@ -44,11 +21,6 @@ body {
 
 .gap-30 {
     gap: 30px;
-}
-
-.center {
-    justify-content: center;
-    align-items: center;
 }
 
 .row {
@@ -259,7 +231,7 @@ section {
     background-color: var(--primary-colour);
     /* box-shadow: 2px 2px 4px rgb(0 0 0 / 10%); */
     border-radius: 10px;
-    border-left: 10px solid #fff;
+    border-left: 10px solid transparent;
 
     p {
         font-size: 1.6rem;
