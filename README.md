@@ -1,6 +1,7 @@
 ## Winterpeg University
 
-This is the final project for Web Development SD-100 completed by Ashedzi Solomon, Haodi Hau and Sarah Mitchell. 
+This is the final project for Web Development SD-100 completed by Ashedzi Solomon, Haodi Hau and Sarah Mitchell. The assignment was to create
+a website for a fictional University, with an "About Us" and "Contact Us" page as well as the home page. 
 
 ![Example of Home Page](./assets/img/readme-1.png)
 
@@ -14,7 +15,7 @@ Our examples were [Carleton University](https://carleton.ca/) and [Eduzone](http
  
 - Sarah did the contact-us page as well as combining all of the files, and adjusting some of the class names for redundancy. She was in charge of contact.html, contact-style.css and general-style.css.<br /> 
 
-- Haodi was in charge of the About us section, he wrote about.html and about-style.css although some changes were made to make it fit with the other pages.   
+- Haodi was in charge of the About us section, he wrote about.html and about-style.css 
 
 ### Project Features
 - Responsive Design: The layout is optimized for different screen sizes (desktop, tablet, mobile) to ensure accessibility and usability across devices.   <br />     
